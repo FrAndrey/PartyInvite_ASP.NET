@@ -12,7 +12,7 @@
     <title>RsvpForm</title>
 </head>
 <body>
-    <form asp-action="RsvpForm" method="Post"></form>
+    <form asp-action="RsvpForm" method="Post">
     <div>
         <label asp-for="Name">Your name:</label>
         <input asp-for="Name" />
@@ -33,6 +33,8 @@
             <option value="false">No, I won't</option>
             </select>
 </div>
+    <div> <button type="submit">Submit Rsvp</button>  </div>
+    </form>
 
 </body>
 </html>
